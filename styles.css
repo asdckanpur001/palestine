@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.icon {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.text {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.search-bar {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.list {
+    width: 300px;
+    list-style-type: none;
+    padding: 0;
+}
+.list-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    cursor: pointer;
+}
+.message {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.israeli {
+    color: red;
+}
+.not-israeli {
+    color: green;
+}
